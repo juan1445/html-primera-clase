@@ -1,0 +1,85 @@
+body{
+    background-color: blue;
+}
+
+.contenido{
+    background-color: aliceblue;
+    padding: 20px;
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.cabecera{
+    margin-bottom: 80px;
+    border-bottom: 1px solid black;
+}
+
+.cabecera li{
+    display: inline-block;
+}
+
+.cabecera a{
+    padding: 10px;
+    font-size: 1.5em;
+    color: black;
+    text-decoration: none;
+}
+
+.cabecera a:hover{
+    background-color: blue;
+    color: white;
+}
+
+.formulario{
+    margin-bottom: 100px;
+    padding: 100px;
+    font-size: 1.2em;
+}
+
+.formulario p{
+    text-align: left;
+}
+
+.formulario input{
+    width: 100%;
+    font-size: 1em;
+}
+
+.formulario button{
+    width: 50%;
+    font-size: 1em;
+    background-color: blue;
+    color: white;
+    border:none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.formulario button:hover{
+    box-shadow: 1px 1px 5px black;
+}
+
+@media only screen and (max-width: 768px){
+    body{
+        background-color: red;
+    }
+    .contenido{
+        width: 70%;
+    }
+    .formulario button{
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    body{
+        background-color: black;
+    }
+    .contenido{
+        width: 70%;
+    }
+    .formulario button{
+        width: 100%;
+    }
+}
