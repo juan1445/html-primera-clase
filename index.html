@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi Hoja de vida</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
     <div id="contenedor">
@@ -12,20 +12,40 @@
             <aside class="logo">
                 <img src="Logo de JM.png" alt="logo de la pagina de JM" title="logo de JM" srcset="">
             </aside>
-            <nav>
+            <nav class="menu-principal">
                 <ul>
-                    <li>Home</li>
-                    <li>Company</li>
-                    <li>Products</li>
-                    <li>Contact</li>
+                    <li><a href="#">Quien soy</a></li>
+                    <li><a href="#">Experiencia</a></li>
+                    <li><a href="#">Proyectos</a></li>
+                    <li><a href="#">Contacto</a></li>
                 </ul>
             </nav>
         </header>
+        <section class="home">
+            <div class="quien-soy">
+                <h2>Hola, mi nombre es Juan Zuleta</h2>
+                <img src="Fotomia.jpg" alt="">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur molestiae ipsam odio, maxime voluptates rerum repudiandae voluptate hic! Minima rerum magnam iste totam maxime quisquam error dolorum quo officiis obcaecati Lorem ipsum dolor, sit amet consectetur adipisicing elit. At quia quidem impedit, quos, fuga dicta laudantium, quaerat neque illo eos perspiciatis assumenda? Commodi, rem libero! Alias non maiores necessitatibus? Nemo! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus dolores, corrupti incidunt explicabo similique fugit obcaecati cum libero ipsa. Ab in voluptas omnis fugit quidem, alias voluptatem ipsam veniam libero?</p>
+                <h3>Redes Sociales</h3>
+            </div>
+        </section>
         <section>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit quod modi incidunt laborum odit doloribus, optio corporis harum doloremque quasi quaerat repudiandae? Expedita libero iste laudantium accusantium, consequatur eos numquam.</p>
+            <div class="formulario-home">
+                <h2>Contactame</h2>
+                <form action="" class="formulario">
+                    <p>Nombres: </br></p>
+                    <input type="text" placeholder="Nombres" required></br>
+                    <p>Apellidos: </br></p>
+                    <input type="text" placeholder="Apellidos" required></br>
+                    <p>Correo electronico: </br></p>
+                    <input type="email" name="" id="" placeholder="Correo electronico" required></br>
+                    </br>
+                    <button type="submit" >Enviar Formulario</button>
+                </form>
+            </div>
         </section>
         <footer>
-            <nav>
+            <nav class="menu-footer">
                 <ul>
                     <li>Home</li>
                     <li>Company</li>
@@ -35,5 +55,10 @@
             </nav>
         </footer>
     </div>
+
+
+
+
+<script src="https://kit.fontawesome.com/cd2331958e.js"></script>
 </body>
 </html>
