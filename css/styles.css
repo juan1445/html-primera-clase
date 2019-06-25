@@ -1,0 +1,24 @@
+:root {
+    --color-fondo: #000FFF;
+}
+
+header{
+    width: 100%;
+    background-color: #FFFFFF;
+}
+
+nav{
+    margin: 5px;
+    display: inline-block;
+    margin-bottom: 50px;
+}
+
+nav li{
+    display: inline;
+}
+
+.logo{
+    margin: 20px;
+    width: 80px;
+    display: inline-block;
+}
