@@ -37,13 +37,16 @@ body{
     font-size: 1.2em;
 }
 
-.formulario p{
+.formulario form{
     text-align: left;
+    padding: 20px 10px 0 0;
 }
 
 .formulario input{
     width: 100%;
     font-size: 1em;
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
 
 .formulario button{
@@ -54,6 +57,7 @@ body{
     border:none;
     border-radius: 10px;
     cursor: pointer;
+    margin-top: 30px;
 }
 
 .formulario button:hover{
@@ -81,5 +85,43 @@ body{
     }
     .formulario button{
         width: 100%;
+    }
+    .formulario{
+        margin-bottom: 100px;
+        padding: 10px;
+        font-size: 1.2em;
+    }
+    .cabecera a{
+        font-size: 1.1em;
+        padding: 5px;
+    }
+    .cabecera ul{
+        padding: 5px;
+    }
+}
+
+
+@media only screen and (max-width: 414px){
+    body{
+        background-color: black;
+    }
+    .contenido{
+        width: 80%;
+        text-align: center;
+    }
+    .cabecera a{
+        font-size: 0.9em;
+        padding: 5px;
+    }
+    .cabecera ul{
+        padding: 5px;
+    }
+    .formulario button{
+        width: 100%;
+    }
+    .formulario{
+        margin-bottom: 100px;
+        padding: 10px;
+        font-size: 1.2em;
     }
 }
